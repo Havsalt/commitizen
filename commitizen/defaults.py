@@ -138,7 +138,7 @@ BUMP_MAP_MAJOR_VERSION_ZERO = OrderedDict(
     (
         (r"^.+!$", MINOR),
         (r"^BREAKING[\-\ ]CHANGE", MINOR),
-        (r"^feat", MINOR),
+        (r"^feat", PATCH),
         (r"^fix", PATCH),
         (r"^refactor", PATCH),
         (r"^perf", PATCH),
